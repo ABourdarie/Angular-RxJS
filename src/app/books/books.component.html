@@ -1,0 +1,6 @@
+
+<h2>Nos Livres</h2>
+
+<ul *ngFor="let book of books$ | async">
+    <li><app-book [book]="book"></app-book></li>
+</ul>
